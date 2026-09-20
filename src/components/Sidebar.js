@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { Home, Search, Library, PlusSquare, Heart, Music } from 'lucide-react';
 import { usePlaylist } from '../context/PlaylistContext';
 

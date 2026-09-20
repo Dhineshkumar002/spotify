@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Play, Pause, SkipBack, SkipForward, Volume2, Maximize2, Heart } from 'lucide-react';
+import { Play, Pause, SkipBack, SkipForward, Volume2, Heart } from 'lucide-react';
 import { usePlayer } from '../context/PlayerContext';
 import { usePlaylist } from '../context/PlaylistContext';
 
