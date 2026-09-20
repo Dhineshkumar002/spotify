@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, useEffect } from 'react';
+import React, { createContext, useState, useContext } from 'react';
 import { getStorageItem, setStorageItem, removeStorageItem } from '../utils/storage';
 import { toast } from 'react-toastify';
 
